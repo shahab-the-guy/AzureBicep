@@ -8,7 +8,7 @@ param region string = 'West Europe'
 param env string = 'dev'
 
 @description('The default principal to have access to the Key Vault')
-param demoUser string = 'dc3d9644-a676-4f61-939f-163cc679baad'
+param demoUser string = '<create-your-demo-user-in-azure-ad>'
 
 // run: az ad user show --id your-user-email
 var me = '<you-user-object-id-in-AAD>'
